@@ -1,0 +1,13 @@
+Sworks torch 46.5 in wide link
+https://www.specialized.com/us/en/s-works-torch/p/200598?color=323503-200598&searchText=61022-04465
+
+
+Process for tracking an item on specialized website via webscraping
+
+Need to scrape html for div of class name containing Toast_Container
+    If container is present then look for p tag that contains the text 'Out of Stock Online'
+        If text found the item is not in stock
+
+        Otherwise it is available in some capacity
+
+If Toast_Container not found then the item is available
