@@ -30,7 +30,8 @@ def main():
     os.system('cls')
 
     # Accept a url on first run
-    url = "https://www.specialized.com/us/en/s-works-torch/p/200598?color=330081-200598&searchText=61022-03465"
+    url = input("Please enter the url of the product you want to track: ")
+    os.system("cls")
 
     # Check if the product is available every 11 seconds (Minimum request rate is 10seconds on specialized, so 11 to be safe)
     available = False
